@@ -29,18 +29,16 @@ a
 body
 {
 	background-color: black;
-	font-family: "Arial", "Tahoma", "Trebucht", sans-serif;
+	font-family: "Veranda", "Geneva", "Helveitca", sans-serif;
 }
 
 p
 {
 	color: white;
-	font family: "Arial", "Tahoma", "Trebucht", sans-serif;
 	font-weight: normal;
 	font-size: 1em;
 	text-indent: 3em;
 	line-height: 1.5em;
-	text-style: italic;
 }
 
 ul
