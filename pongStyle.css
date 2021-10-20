@@ -1,0 +1,37 @@
+ol
+{
+	color: white;
+	list-style-image: url("../myweb/red bar-1.png.png");
+}
+
+ul
+{
+	color: white;
+	list-style-image: url("../myweb/blue bar-1.png.png");
+}
+
+h2
+{
+	color: white;
+	background-color: #23716E;
+}
+
+body
+{
+	background-color: black;
+	font-family: "Veranda", "Geneva", "Helveitca", sans-serif;
+}
+
+p
+{
+	color: white;
+	font-weight: normal;
+	font-size: 1em;
+	text-indent: 3em;
+	line-height: 1.5em;
+}
+
+a
+{
+	color: white;
+}
