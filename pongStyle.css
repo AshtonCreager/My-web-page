@@ -4,7 +4,7 @@ ol
 	list-style-image: url("../myweb/red bar-1.png.png");
 }
 
-ul
+il
 {
 	color: white;
 	list-style-image: url("../myweb/blue bar-1.png.png");
@@ -14,6 +14,11 @@ h2
 {
 	color: white;
 	background-color: #23716E;
+}
+
+h5
+{
+	color: #23716E;
 }
 
 body
@@ -34,4 +39,37 @@ p
 a
 {
 	color: white;
+}
+
+nav
+{
+	background-color: #23716E;
+	line-height: 200%;
+	display: block;
+}
+
+nav li
+{
+	display: inline;
+	padding-right: 40px;
+	list-style-type: none;
+}
+
+nav a:link
+{
+	color: white;
+	text-decoration: none;
+}
+nav a:visited
+{
+	color:white;
+}
+nav a:hover
+{
+	text-decoration:underline;
+}
+nav a:active
+{
+	color:black;
+	text-decoration:underline;
 }
