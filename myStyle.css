@@ -91,4 +91,5 @@ nav a:active
 img
 {
 	border: solid thin white;
+	float: left;
 }
