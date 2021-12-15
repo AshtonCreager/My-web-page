@@ -1,3 +1,9 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
 h1
 {
 	color: white;
@@ -18,12 +24,12 @@ h2
 	background-color: #23716E;
 	border: solid thin white;
 	padding: 10px;
-	margin: 30px;
+	margin: 10px;
 }
 
 h5
 {
-	color: #23716E;
+	color: white;
 }
 
 a
@@ -52,14 +58,17 @@ ul
 	color: white;
 }
 
+li
+{
+	color: white;
+}
+
 nav
 {
-	background-color: #23716E;
-	line-height: 200%;
-	display: block;
-	border: solid thin white;
+	width: 1040px;
 	padding: 10px;
-	margin: 30px;
+	background-color: #23716E;
+	margin-bottom: 10px;
 }
 
 nav li
@@ -92,4 +101,98 @@ img
 {
 	border: solid thin white;
 	float: left;
+}
+
+#container
+{
+	width: 1060px;
+	margin: 0 auto;
+}
+
+header
+{
+	height: 100px;
+	width: 1010px;
+	padding: 25px;
+	background-color: #23716E;
+	margin-bottom: 10px;
+}
+
+nav
+{
+	width: 1040px;
+	padding: 10px;
+	background-color: #23716E;
+	margin-bottom: 10px;
+}
+nav li
+{
+	display:inline;
+	list-style-type: none;
+	padding right: 40px;
+}
+
+aside
+{
+	width: 300px;
+	height: 400px;
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	background-color: #23716E;
+	float: left;
+}
+
+section
+{
+	width: 710px;
+	height: 400px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	background-color: #23716E;
+	float: right;
+}
+
+footer
+{
+	background-color: #23716E;
+	padding: 10px;
+	clear: both;
+}
+
+iframe
+{
+	border-style: none;
+}
+
+table
+{
+	border: solid 1px white;
+	border-collapse: collapse;
+	
+}
+
+tr, td, th
+{
+	border: solid 2px white;
+	color: white;
+	padding: 5px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+
+th
+{
+	background-color: #23716E
+}
+
+td
+{
+	background-color: black;
+}
+	
+caption
+{
+	color:white;
+	caption-side: top;
 }
